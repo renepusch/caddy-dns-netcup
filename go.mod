@@ -7,6 +7,8 @@ require (
 	github.com/libdns/netcup v0.1.1-0.20240604141625-bdf109361f52
 )
 
+replace github.com/libdns/netcup => github.com/renepusch/libdns-netcup v1.0.1
+
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/caddyserver/certmagic v0.15.2 // indirect
@@ -14,7 +16,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
-	github.com/libdns/libdns v0.2.2 // indirect
+	github.com/libdns/libdns v1.0.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mholt/acmez v1.0.1 // indirect
 	github.com/miekg/dns v1.1.45 // indirect
